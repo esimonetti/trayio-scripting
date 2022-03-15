@@ -1,0 +1,41 @@
+{
+    "variables": [
+        {
+            "name": "currencies",
+            "value": {
+                "next_offset": -1,
+                "records": [
+                    {
+                        "id": "-99",
+                        "name": "US Dollar",
+                        "symbol": "$",
+                        "iso4217": "USD",
+                        "_acl": {
+                            "fields": {}
+                        },
+                        "_module": "Currencies"
+                    },
+                    {
+                        "id": "3aaf06e4-95c5-11ec-803c-0221da82edeb",
+                        "name": "Dollars",
+                        "symbol": "$",
+                        "iso4217": "AUD",
+                        "date_modified": "2022-03-03T03:13:27+00:00",
+                        "_acl": {
+                            "fields": {}
+                        },
+                        "_module": "Currencies"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "data",
+            "value": {
+                "other": "aaa"
+            }
+        }
+    ],
+    "script": "<redacted on purpose>",
+    "file_output": false
+}

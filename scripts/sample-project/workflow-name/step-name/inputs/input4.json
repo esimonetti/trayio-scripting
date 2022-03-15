@@ -1,0 +1,20 @@
+{
+    "variables": [
+        {
+            "name": "currencies",
+            "value": {
+                "next_offset": -1,
+                "records": [
+                ]
+            }
+        },
+        {
+            "name": "data",
+            "value": {
+                "currency": "EUR"
+            }
+        }
+    ],
+    "script": "<redacted on purpose>",
+    "file_output": false
+}

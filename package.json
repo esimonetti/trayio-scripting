@@ -1,0 +1,13 @@
+{
+  "name": "trayio-scripting",
+  "version": "0.0.1",
+  "description": "Scripts to allow development and testing of multiple integrations, workflows and steps built on top of Tray.io, for SugarCRM Inc. Work derived and adapted from the original ISC based work on https://github.com/trayio/script-connector-tester",
+  "main": "app.js",
+  "author": "Enrico Simonetti",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "mout": "^1.0.0"
+  }
+}
