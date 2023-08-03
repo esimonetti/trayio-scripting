@@ -1,0 +1,40 @@
+{
+    "variables": [
+        {
+            "name": "dataMapping",
+            "value": {
+                "firstName": "first_name",
+                "lastName": "last_name",
+                "phoneNumber": "phone",
+                "country": "country_code",
+                "website": "website_url",
+                "businessName": "company_name",
+                "industry": "industry_type"
+            }
+        },
+        {
+            "name": "records",
+            "value": [
+                {
+                    "firstName": "Enrico",
+                    "lastName": "Simonetti",
+                    "phoneNumber": "+61 123-456-7890",
+                    "country": "AU",
+                    "website": "www.naonis.tech",
+                    "businessName": "Naonis Pty. Ltd.",
+                    "industry": "Information Technology"
+                },
+                {
+                    "firstName": "Jessica",
+                    "lastName": "Johnson",
+                    "phoneNumber": "+44 20.1234.5678",
+                    "website": "www.example.com",
+                    "businessName": "Example Corp.",
+                    "industry": "Consulting"
+                }
+            ]
+        }
+    ],
+    "script": "<redacted on purpose>",
+    "file_output": false
+}

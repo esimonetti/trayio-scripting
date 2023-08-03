@@ -1,0 +1,35 @@
+{
+	"variables": [
+		{
+			"name": "dataMapping",
+			"value": {
+				"firstName": "first_name",
+				"lastName": "last_name",
+				"mainEmail": "email_addresses",
+				"website": "website_url",
+				"businessName": "company_name",
+				"businessDescription": "company_description"
+			}
+		},
+		{
+			"name": "records",
+			"value": [
+				{
+					"firstName": "Enrico",
+					"lastName": "Simonetti",
+					"website": "www.naonis.tech",
+					"businessName": "Naonis Pty. Ltd.",
+					"businessDescription": "At Naonis, we are passionate, knowledgeable and experienced with integrations, automation and customer experience. We have more than 15 years of experience in delighting customers with our Customer Relationship Management and integration solutions. We help businesses simplify their IT landscape by automating anything that can be automated, one quick win and a big impact at the time."
+				},
+				{
+					"firstName": "John",
+					"lastName": "Smith",
+					"mainEmail": "jsmith@smith.com",
+					"businessName": "Smiths Associates"
+				}
+			]
+		}
+	],
+	"script": "<redacted on purpose>",
+	"file_output": false
+}

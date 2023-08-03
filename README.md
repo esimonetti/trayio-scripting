@@ -1,24 +1,32 @@
-# Tray.io scripting 
+# Tray.io Scripting Tool
 
-Scripts to allow development and testing of multiple integrations, workflows and steps built on top of Tray.io, for SugarCRM Inc.
+Welcome to Tray.io Scripting, a powerful tool designed to simplify and accelerate the development and testing of multiple integrations, workflows, and steps built on top of Tray.io. Developed by Enrico Simonetti @ Naonis, in collaboration with Tray.io, this script allows you to take control of your Tray.io projects like never before.
 
-# Benefits
+## Benefits
 
-* Simplify and speed up the development and debug process, by allowing local coding of the Tray.io NodeJS steps
-* Ability to restore code, when implementing git versioning of complex script components, outside of Tray.io
-* Ability to build more resilient code, by being able to write targeted tests or testing scripts with various inputs
+* **Faster Development**: With this script, you can code locally Tray.io JavaScript/NodeJS script steps, allowing for quicker iteration, a better coding experience and debugging.
 
-# Features
+* **Leverage Your Skills**: Work in your favorite code editor with autocomplete functionality and advanced debugging capabilities. Enjoy the familiarity and power of your preferred tools.
 
-* Ability to develop and test multiple projects, workflows and steps
-* Ability to test multiple input dataset for each step
- 
+* **Version Control**: Take advantage of Git versioning outside of Tray.io. Easily manage complex parts of your code and collaborate seamlessly with your team.
+
+* **Resilient Code**: Build more robust integrations by testing various input datasets and simulating edge cases. Identify potential issues before they happen, ensuring smoother workflows.
+
+## Features
+
+* **Multiple Projects**: Develop and test multiple projects, workflows, and steps in a single environment. Stay organised and efficient.
+
+* **Flexible Testing**: Test multiple input datasets for each step. Tailor your testing to ensure a more comprehensive coverage and a more robust end-result.
+
+## Author
+
+For all your integration and automation needs, don't hesitate to reach out to [Naonis](https://www.naonis.tech), your trusted experts in software integration and business automation. We are here to help you streamline your processes and drive your success.
+
 # Requirements
 
-* linux/osx command line
 * node and npm
 
-I use osx, with node v16.6.1 and npm 7.20.3
+I use osx with node v16.6.1 and npm v7.20.3 and linux with node v18.17.0 and npm v9.6.7 and those are the only environments this script has been tested on at this stage.
 
 # Installation
 
@@ -42,6 +50,8 @@ I use osx, with node v16.6.1 and npm 7.20.3
         * e.g.: `./scripts/sample-project/workflow-name/step-name/inputs/input1.json`, `./scripts/sample-project/workflow-name/step-name/inputs/input2.json` etc.
 * Execute `./execute.sh <path>`
     * e.g.: `./execute.sh ./scripts/sample-project/workflow-name/step-name`
+* Alternatively execute directly `node app.js <path>`
+    * e.g.: `npm app.js ./scripts/sample-project/workflow-name/step-name`
 
 Happy local coding, debugging and versioning!
 
